@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="styleFormulaire.css">
+</head>
+<body>
+    <div class="containeur">
+        <div class="title">Formulaire</div>
+            <form action="#">
+                <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Nom</span>
+                                <input type="text" placeholder="Entrer votre nom" required></input>
+                            
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Prénoms</span>
+                                <input type="text" placeholder="Entrer votre Prénoms" required></input>
+                                
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Email</span>
+                                <input type="text" placeholder="Entrer votre Email" required></input>
+                                
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Numéro</span>
+                                <input type="tel" placeholder="Entrer votre Numéro" required></input>
+                                
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Mot de passe</span>
+                                <input type="password" placeholder="Entrer votre mot de passe" required></input>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Confirmer</span>
+                                <input type="password" placeholder="confirmer mot de passe" required></input>
+                                
+                            </div>
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <input type="radio" name="gender" id="dot-3">
+                    <span class="gender-title">Votre sexe</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Homme</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Femme</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Ne pas renseigner</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Enregistrer">
+                </div>
+            </form>
+    </div>
+
+
+</body>
+</html>
